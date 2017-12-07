@@ -1,0 +1,110 @@
+/*
+ * Hide only visually, but have it available for screen readers
+ * 1. For long content, line feeds are not interpreted as spaces and small width
+ causes content to wrap 1 word per line
+ */
+
+ .visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    -webkit-clip-path: inset(50%);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap; /* 1 */
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    -webkit-clip-path: none;
+    clip-path: none;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+    white-space: inherit;
+}
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request
+   ========================================================================== */
+
+   @media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+  
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+  
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+  
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+  
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+  
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+  
+    pre {
+        white-space: pre-wrap !important;
+    }
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+  
+    /*
+     * Printing Tables
+     */
+  
+    thead {
+        display: table-header-group;
+    }
+  
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+  
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+  
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+  }
+  

@@ -1,0 +1,26 @@
+//  ****** PAGE FOOTER ******
+#footer {
+    background: $lightgray;      
+    height: 6.25rem;    
+    flex: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .social {
+        a {
+            text-decoration: none;
+        }
+        i {
+            color: $font-color;
+            font-size: 2rem;
+        }
+    }
+    .copyright {
+      font-family: cursive,"Times New Roman", sans-serif;
+      color: $font-color;
+      h5 {
+          text-align: center;
+      }
+    }
+  }

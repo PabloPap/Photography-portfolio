@@ -1,0 +1,51 @@
+// ****** PAGE HEADER ******
+#header {
+    flex: none;  
+    background: $lightgray;
+    z-index: 10;
+    nav {
+        margin-top: 69.5px;
+      ul {
+        display: flex;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        li {
+          position: relative;
+        }
+        li:hover ul {
+          background-color: #212121;
+          display: flex;
+          flex-direction: column;
+        }
+      }
+      .submenu-level-1 ul {
+        display: none;
+        position: absolute;
+        .submenu-level-2 ul {
+          display: none;
+          position: absolute;
+          width: 8rem;
+          top: 0;
+        }
+        .submenu-level-2:hover ul {
+          display: flex;
+          flex-direction: column;
+        }
+      }
+      .left {
+        background-image: url("../../logo-martel280.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      a {
+        text-decoration: none;
+        color: $font-color;
+        display: block;
+        line-height: 1.2rem;
+      }
+      a:hover {
+        background-color: #555;
+      }
+    }
+}
