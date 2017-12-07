@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -11,6 +11,8 @@
     <!-- Disable link highlighting upon tap in IE10 -->
     <meta name="msapplication-tap-highlight" content="no" />
 
+    <!-- Set a default page for your Pinned Site -->
+    <meta name="msapplication-starturl" content="https://www.pavlospapadopoulos.com/index.html?pinned=true">
 
     <!-- (Windows 8) High quality visuals for Pinned Sites -->
     <meta name="msapplication-TileColor" content="#ffffff">
@@ -33,7 +35,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
     <link rel="manifest" href="/manifest.json">
 
-    <link rel="stylesheet" type="text/css" href="dist/css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 
     <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
     <script>
@@ -50,10 +52,8 @@
 
 <body>
     <!--[if lte IE 9]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-        <![endif]-->
-
-    <!-- Add your site or application content here -->
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <![endif]-->
     <header id="header">
         <!-- Navigation Bar -->
         <nav>
@@ -93,53 +93,15 @@
     </header>
     <div class="wrapper">
         <div class="container">
-            <article class="article">
-                <div class="notes" lang="en">
-                    <div class="parags">
-                        <h3>Ask In The Soil</h3>
-                    </div>
-                    <div class="parags top-sect">
-                        <h4>Territory buried unorthodoxly</h4>
-                        <h4>Light exposure from beheaded wild creature</h4>
-                    </div>
-                    <div class="parags top-sect">
-                        <p>A bizzare figure was daunted by a dark bird
-                        </p>
-                        <p>Steam revealed by an info generator
-                        </p>
-                    </div>
-                    <div class="parags top-sect">
-                        <p> The resting place's heat degrees was all over a sudden scream of pain
-                        </p>
-                        <p>Many large plants covered a streetlamp
-                        </p>
-                    </div>
-                    <hr>
-                    <div class="parags">
-                        <p>An annoyed devious rangy man</p>
-                        <p>Mythical critter part of tundra goners
-                        </p>
-                    </div>
-                    <div class="parags">
-                        <p>Around god you find a mammal
-                        </p>
-                        <p>Moving objects conceals incarnation
-                        </p>
-                    </div>
-                    <div class="parags">
-                        <p>Form is changed, but termination is hidden next to an irritating incect
-                        </p>
-                        <p>Talk outskirts of Lucerne embracing an abnormal truce
-                        </p>
-                    </div>
-                    <div class="parags">
-                        <p>Burst in tears inside a crusade
-                        </p>
-                        <p>Surface invations, the entirety without a direction
-                        </p>
-                    </div>
-                </div>
-            </article>
+            <picture class="polaroids-home">
+                <source srcset="images/home/polaroids800.jpg" media="(min-width: 55em)">
+                <source srcset="images/home/polaroids650.jpg" media="(min-width: 45em)">
+                <source srcset="images/home/polaroids480.jpg" media="(min-width: 35em)">
+                <source srcset="images/home/polaroids400.jpg" media="(min-width: 30em)">
+                <source srcset="images/home/polaroids350.jpg" media="(min-width: 25em)">
+                <source srcset="images/home/polaroids280.jpg" media="(min-width: 10em)">
+                <img style="max-width: 100%;" srcset="images/home/polaroids800.jpg" alt="numbered polaroids first set">
+            </picture>
         </div>
     </div>
     <footer id="footer">
@@ -151,8 +113,8 @@
                 <i class="icon-facebook"></i>
             </a>
             <!-- <a href="#">
-                    <i class="icon-twitter"></i>
-                </a> -->
+                <i class="icon-twitter"></i>
+            </a> -->
         </div>
         <div class="copyright">
             <div>
@@ -163,7 +125,8 @@
             </div>
         </div>
     </footer>
-    <script src="dist/js/bundle.js"></script>
+
+    <script src="js/bundle.js"></script>
 </body>
 
 </html>
