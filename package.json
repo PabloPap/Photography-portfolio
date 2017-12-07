@@ -21,7 +21,8 @@
     "watch:css": "onchange \"src/scss\" -- run-s build:css",
     "watch:js": "onchange \"src/js\" -- run-s build:js",
     "watch": "run-p serve watch:*",
-    "postinstall": "run-s build watch"
+    "postinstall": "run-s build watch",
+    "production": "run-s build"
   },
   "devDependencies": {
     "autoprefixer": "^6.3.6",
