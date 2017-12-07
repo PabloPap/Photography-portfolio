@@ -4,7 +4,7 @@
   "description": "Personal portfolio website",
   "author": "Pavlos Papadopoulos",
   "license": "MIT",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "clean": "rimraf dist/{css/*,js/*,images/*}",
     "autoprefixer": "postcss -u autoprefixer -r dist/css/*",
