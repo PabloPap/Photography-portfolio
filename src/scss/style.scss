@@ -1,11 +1,11 @@
-@import "variables";
-@import "normalize";
-@import "baguetteBox";
-@import "mixins";
-@import "boilerplate-styles";
-@import "header";
-@import "footer";
-@import "fonts";
+@import 'variables';
+@import 'normalize';
+@import 'baguetteBox';
+@import 'mixins';
+@import 'boilerplate-styles';
+@import 'header';
+@import 'footer';
+@import 'fonts';
 * {
   margin: 0;
   a:focus {
@@ -61,7 +61,7 @@ body {
       -moz-box-sizing: border-box;
       -webkit-box-sizing: border-box;
       box-sizing: border-box;
-      font-family: Georgia, "Times New Roman", Times, serif;
+      font-family: Georgia, 'Times New Roman', Times, serif;
       width: 75%;
       background: $lightgray;
       outline: none;
