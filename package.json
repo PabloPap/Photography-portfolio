@@ -28,7 +28,7 @@
     "prod:js": "run-s uglify-js",
     "prod": "run-s prod:*",
     "development": "run-s dev watch",
-    "production": "run-s clean prod"
+    "production": "run-s clean dev prod"
   },
   "devDependencies": {
     "autoprefixer": "^9.3.1",
