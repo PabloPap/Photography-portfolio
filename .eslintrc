@@ -11,7 +11,7 @@
   },
   "extends": ["airbnb-base/legacy", "prettier"],
   "rules": {
-    "linebreak-style": ["error", "windows"],
+    "linebreak-style": 0,
     "no-console": 0
   }
 }
