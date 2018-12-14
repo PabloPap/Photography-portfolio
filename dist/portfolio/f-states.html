@@ -33,18 +33,18 @@
 	<link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
 	<link rel="manifest" href="/manifest.json">
 
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
 
 	<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
 	<script>
 		window.ga = function () {
-            ga.q.push(arguments)
-        };
-        ga.q = [];
-        ga.l = +new Date;
-        ga('create', 'UA-110925255-1', 'auto');
-        ga('send', 'pageview')
-    </script>
+			ga.q.push(arguments)
+		};
+		ga.q = [];
+		ga.l = +new Date;
+		ga('create', 'UA-110925255-1', 'auto');
+		ga('send', 'pageview')
+	</script>
 	<script src="https://www.google-analytics.com/analytics.js" async defer></script>
 </head>
 
@@ -60,32 +60,32 @@
 			<ul class="nav-list">
 				<li class="left"></li>
 				<li class="right">
-					<a class="main-nav" href="index.html">Home</a>
+					<a class="main-nav" href="../index.html">Home</a>
 				</li>
 				<li class="right submenu-level-1">
-					<a class="main-nav" href="portfolio.html">Portfolio</a>
+					<a class="main-nav" href="../portfolio.html">Portfolio</a>
 					<ul>
 						<li class="submenu-level-2">
-							<a href="portfolio/f-states.html">F-States</a>
+							<a href="f-states.html">F-States</a>
 							<ul>
 								<li>
-									<a href="portfolio/f-states/figures.html">Figures</a>
+									<a href="f-states/figures.html">Figures</a>
 								</li>
 								<li>
-									<a href="portfolio/f-states/fluidness.html">Fluidness</a>
+									<a href="f-states/fluidness.html">Fluidness</a>
 								</li>
 								<li>
-									<a href="portfolio/f-states/formations.html">Formations</a>
+									<a href="f-states/formations.html">Formations</a>
 								</li>
 							</ul>
 						</li>
 					</ul>
 				</li>
 				<li class="right">
-					<a class="main-nav" href="notes.html">Notes</a>
+					<a class="main-nav" href="../notes.html">Notes</a>
 				</li>
 				<li class="right right-end">
-					<a class="main-nav" href="contact.html">Contact</a>
+					<a class="main-nav" href="../contact.html">Contact</a>
 				</li>
 			</ul>
 		</nav>
@@ -93,32 +93,38 @@
 	</header>
 	<div class="wrapper">
 		<div class="container">
-			<form class="form" action="https://formspree.io/pavlospapadopou@gmail.com" id="" method="post">
-				<section class="contact">
-					<label for="name" class="visuallyhidden">Name
-						<abbr title="required">*</abbr>
-					</label>
-					<input id="name" type="text" name="username" placeholder="Name">
-					<label for="mail" class="visuallyhidden">Email Address
-						<abbr title="required">*</abbr>
-					</label>
-					<input id="mail" type="email" name="_replyto" placeholder="E-Mail">
-					<label for="message" class="visuallyhidden">Message
-						<abbr title="required">*</abbr>
-					</label>
-					<textarea name="message id=" message " cols=" 30 rows="10" placeholder="Message"></textarea>
-					<button type="submit">Send</button>
+			<main class="portfolio-home">
+				<section class="section-1 section">
+					<a href="f-states/figures.html">
+						<picture>
+							<source srcset="../images/f-states/figures/w300/DSC04960-300.jpg" media="(min-width: 44em)">
+							<source srcset="../images/f-states/figures/thumbs/DSC04960-150h.jpg" media="(min-width: 10em)">
+							<img style="max-width: 100%;" srcset="" alt="figures cover photo">
+						</picture>
+					</a>
+					<p>Figures</p>
 				</section>
-			</form>
-			<picture class="second-set">
-				<source srcset="images/home/polaroids-cropped800.jpg" media="(min-width: 55em)">
-				<source srcset="images/home/polaroids-cropped650.jpg" media="(min-width: 45em)">
-				<source srcset="images/home/polaroids-cropped480.jpg" media="(min-width: 35em)">
-				<source srcset="images/home/polaroids-cropped400.jpg" media="(min-width: 30em)">
-				<source srcset="images/home/polaroids-cropped350.jpg" media="(min-width: 25em)">
-				<source srcset="images/home/polaroids-cropped280.jpg" media="(min-width: 10em)">
-				<img style="max-width: 100%;" srcset="images/home/polaroids-cropped800.jpg" alt="numbered polaroids second set">
-			</picture>
+				<section class="section-2 section">
+					<a href="f-states/fluidness.html">
+						<picture>
+							<source srcset="../images/f-states/fluidness/w300/DSC02360-300.jpg" media="(min-width: 44em)">
+							<source srcset="../images/f-states/fluidness/thumbs/DSC02360-150h.jpg" media="(min-width: 10em)">
+							<img style="max-width: 100%;" srcset="" alt="fluidness cover photo">
+						</picture>
+					</a>
+					<p>Fluidness</p>
+				</section>
+				<section class="section-3 section">
+					<a href="f-states/formations.html">
+						<picture>
+							<source srcset="../images/f-states/formations/w300/DSC05288-300.jpg" media="(min-width: 44em)">
+							<source srcset="../images/f-states/formations/thumbs/DSC05288-150h.jpg" media="(min-width: 10em)">
+							<img style="max-width: 100%;" srcset="" alt="formations cover photo">
+						</picture>
+					</a>
+					<p>Formations</p>
+				</section>
+			</main>
 		</div>
 	</div>
 	<footer id="footer">
@@ -142,7 +148,7 @@
 			</div>
 		</div>
 	</footer>
-	<script src="js/bundle.js"></script>
+	<script src="../js/bundle.js"></script>
 </body>
 
 </html>
