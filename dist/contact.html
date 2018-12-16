@@ -43,7 +43,7 @@
         ga.q = [];
         ga.l = +new Date;
         ga('create', 'UA-110925255-1', 'auto');
-        ga('send', 'pageview')
+        ga('send', 'pageview');
     </script>
 	<script src="https://www.google-analytics.com/analytics.js" async defer></script>
 </head>
@@ -79,6 +79,7 @@
 								</li>
 							</ul>
 						</li>
+						<li> <a href="portfolio/labyrinth.html">Labyrinth</a></li>
 					</ul>
 				</li>
 				<li class="right">
@@ -98,15 +99,15 @@
 					<label for="name" class="visuallyhidden">Name
 						<abbr title="required">*</abbr>
 					</label>
-					<input id="name" type="text" name="username" placeholder="Name">
+					<input id="name" type="text" name="username" placeholder="Name" required>
 					<label for="mail" class="visuallyhidden">Email Address
 						<abbr title="required">*</abbr>
 					</label>
-					<input id="mail" type="email" name="_replyto" placeholder="E-Mail">
+					<input id="mail" type="email" name="_replyto" placeholder="E-Mail" required>
 					<label for="message" class="visuallyhidden">Message
 						<abbr title="required">*</abbr>
 					</label>
-					<textarea name="message id=" message " cols=" 30 rows="10" placeholder="Message"></textarea>
+					<textarea name="message id=" message " cols=" 30 rows="10" placeholder="Message" required></textarea>
 					<button type="submit">Send</button>
 				</section>
 			</form>
