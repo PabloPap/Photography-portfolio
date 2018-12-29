@@ -6,49 +6,57 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
+
 <url>
   <loc>https://www.pavlospapadopoulos.com/</loc>
-  <lastmod>2017-12-10T18:11:14+00:00</lastmod>
+  <lastmod>2018-12-29T09:12:47+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://www.pavlospapadopoulos.com/index.html</loc>
-  <lastmod>2017-12-10T18:11:14+00:00</lastmod>
+  <lastmod>2018-12-29T09:12:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.pavlospapadopoulos.com/portfolio.html</loc>
-  <lastmod>2017-12-10T18:11:14+00:00</lastmod>
+  <lastmod>2018-12-29T09:12:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.pavlospapadopoulos.com/f-states.html</loc>
-  <lastmod>2017-12-10T18:11:14+00:00</lastmod>
+  <loc>https://www.pavlospapadopoulos.com/portfolio/f-states.html</loc>
+  <lastmod>2018-12-29T09:12:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.pavlospapadopoulos.com/figures.html</loc>
-  <lastmod>2017-12-10T18:11:14+00:00</lastmod>
+  <loc>https://www.pavlospapadopoulos.com/portfolio/f-states/figures.html</loc>
+  <lastmod>2018-12-29T09:12:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.pavlospapadopoulos.com/fluidness.html</loc>
-  <lastmod>2017-12-10T18:11:14+00:00</lastmod>
+  <loc>https://www.pavlospapadopoulos.com/portfolio/f-states/fluidness.html</loc>
+  <lastmod>2018-12-29T09:12:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.pavlospapadopoulos.com/formations.html</loc>
-  <lastmod>2017-12-10T18:11:14+00:00</lastmod>
+  <loc>https://www.pavlospapadopoulos.com/portfolio/f-states/formations.html</loc>
+  <lastmod>2018-12-29T09:12:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.pavlospapadopoulos.com/portfolio/labyrinth.html</loc>
+  <lastmod>2018-12-29T09:12:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.pavlospapadopoulos.com/notes.html</loc>
-  <lastmod>2017-12-10T18:11:14+00:00</lastmod>
+  <lastmod>2018-12-29T09:12:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.pavlospapadopoulos.com/contact.html</loc>
-  <lastmod>2017-12-10T18:11:14+00:00</lastmod>
+  <lastmod>2018-12-29T09:12:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
+
+
 </urlset>
