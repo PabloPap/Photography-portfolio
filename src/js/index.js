@@ -52,6 +52,14 @@ window.jQuery = require('jquery');
       }
     }
 
+    // reuse header and footer across pages
+    $('#header-L1').load('header-L1.html');
+    $('#header-L2').load('../header-L2.html');
+    $('#header-L3').load('../../header-L3.html');
+    $('#footer').load('footer.html');
+    $('#footer-L2').load('../footer.html');
+    $('#footer-L3').load('../../footer.html');
+
     baguetteBox.run('.gallery', {
       overlayBackgroundColor: 'rgba(57,57,57,0.8)',
     });

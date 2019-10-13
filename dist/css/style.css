@@ -950,68 +950,69 @@ template {
   }
 }
 
-#header {
+.header {
   flex: none;
   background: #272727;
   z-index: 10;
 }
 
-#header nav {
+.header nav {
   margin-top: 67px;
 }
 
-#header nav ul {
+.header nav ul {
   display: flex;
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-#header nav ul li {
+.header nav ul li {
   position: relative;
 }
 
-#header nav ul li:hover ul {
+.header nav ul li:hover ul {
   background-color: #212121;
   display: flex;
   flex-direction: column;
 }
 
-#header nav .submenu-level-1 ul {
+.header nav .submenu-level-1 ul {
   display: none;
   position: absolute;
 }
 
-#header nav .submenu-level-1 ul .submenu-level-2 ul {
+.header nav .submenu-level-1 ul .submenu-level-2 ul {
   display: none;
   position: absolute;
   width: 8rem;
   top: 0;
 }
 
-#header nav .submenu-level-1 ul .submenu-level-2:hover ul {
+.header nav .submenu-level-1 ul .submenu-level-2:hover ul {
   display: flex;
   flex-direction: column;
 }
 
-#header nav .left {
+.header nav .left {
   background-image: url("../images/logo-martel280-fix2.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
 
-#header nav a {
+.header nav a {
   text-decoration: none;
   color: #fff;
   display: block;
   line-height: 1.2rem;
 }
 
-#header nav a:hover {
+.header nav a:hover {
   background-color: #555;
+  transition: all ease 0.5s;
 }
 
-#footer {
+.footer {
   background: #272727;
   height: 6.25rem;
   flex: none;
@@ -1021,21 +1022,21 @@ template {
   align-items: center;
 }
 
-#footer .social a {
+.footer .social a {
   text-decoration: none;
 }
 
-#footer .social i {
+.footer .social i {
   color: #fff;
   font-size: 2rem;
 }
 
-#footer .copyright {
+.footer .copyright {
   font-family: cursive,"Times New Roman", sans-serif;
   color: #fff;
 }
 
-#footer .copyright h5 {
+.footer .copyright h5 {
   text-align: center;
 }
 
@@ -1295,7 +1296,7 @@ body {
 }
 
 @media only screen and (min-width: 44em) {
-  #header {
+  .header {
     height: 100px;
   }
   .nav-list {

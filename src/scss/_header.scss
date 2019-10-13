@@ -1,5 +1,5 @@
 // ****** PAGE HEADER ******
-#header {
+.header {
   flex: none;
   background: $lightgray;
   z-index: 10;
@@ -46,6 +46,7 @@
     }
     a:hover {
       background-color: #555;
+      transition: all ease 0.5s;
     }
   }
 }
