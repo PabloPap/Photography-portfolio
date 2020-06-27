@@ -977,13 +977,13 @@ template {
   flex-direction: column;
 }
 
+.header nav .submenu-level-1 .ul-level-1 .li-level-1:nth-child(2) {
+  width: 120px;
+}
+
 .header nav .submenu-level-1 ul {
   display: none;
   position: absolute;
-}
-
-.header nav .submenu-level-1 ul li:nth-child(3) {
-  width: 120px;
 }
 
 .header nav .submenu-level-1 ul .submenu-level-2 ul {
