@@ -22,6 +22,10 @@
     .submenu-level-1 ul {
       display: none;
       position: absolute;
+
+      li:nth-child(3) {
+        width: 120px;
+      }
       .submenu-level-2 ul {
         display: none;
         position: absolute;

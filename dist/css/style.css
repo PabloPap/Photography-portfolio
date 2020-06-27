@@ -982,6 +982,10 @@ template {
   position: absolute;
 }
 
+.header nav .submenu-level-1 ul li:nth-child(3) {
+  width: 120px;
+}
+
 .header nav .submenu-level-1 ul .submenu-level-2 ul {
   display: none;
   position: absolute;
