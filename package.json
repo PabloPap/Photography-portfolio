@@ -12,7 +12,7 @@
     "clean": "rimraf dist/{css/*,js/*}",
     "compile-sass": "node-sass --output-style=expanded --source-map=true src/scss/style.scss dist/css/style.css",
     "prefix": "postcss dist/css/style.css --use=autoprefixer --map=false --output=dist/css/style.css",
-    "minify-css": "cleancss --level=1 --source-map --source-map-inline-sources --output dist/css/style.css dist/css/style.css",
+    "minify-css": "cleancss --source-map --source-map-inline-sources --output dist/css/style.css dist/css/style.css",
     "bundle-js": "mkdirp dist/js -p && browserify src/js/index.js -o dist/js/bundle.js",
     "uglify-js": "uglifyjs -o dist/js/bundle.js dist/js/bundle.js",
     "imagemin": "imagemin src/images/* -o dist/images",
@@ -40,7 +40,6 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.26.0",
     "mkdirp": "^1.0.4",
-    "node-sass": "^7.0.1",
     "npm-run-all": "^4.1.5",
     "onchange": "^7.1.0",
     "postcss-cli": "^10.0.0",
@@ -64,6 +63,7 @@
   "dependencies": {
     "baguettebox.js": "^1.11.1",
     "jquery": "^3.6.0",
+    "node-sass": "^7.0.1",
     "picturefill": "^3.0.3"
   }
 }
