@@ -46,6 +46,13 @@
       background-image: url('../images/logo-martel280-fix2.svg');
       background-repeat: no-repeat;
       background-position: center;
+
+      a {
+        height: 100%;
+        &:hover {
+          background-color: transparent;
+        }
+      }
     }
     a {
       text-decoration: none;
